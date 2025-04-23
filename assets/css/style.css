@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 .navbar-toggler {
-
+    border: none;
 }
 
 .nav-item a {
