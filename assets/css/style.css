@@ -1,0 +1,40 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Comfortaa:wght@300..700&display=swap');
+
+/* Set up variables */
+:root {
+    --primary-color: #84DCCF;
+    --secondary-color: #FF8552;
+    --text-color: #3b4f54;
+    --primary-font: "Comfortaa", sans-serif;
+    --secondary-font: "Baloo Bhaijaan 2", cursive;
+}
+
+/* Global styles */
+h1, h2, h3 {
+    color: var(--text-color);
+    font-family: var(--primary-font);
+}
+
+
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color)
+}
+
+.navbar-toggler {
+
+}
+
+.nav-item a {
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: var(--text-color);
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
