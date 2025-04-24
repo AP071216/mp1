@@ -51,3 +51,8 @@ footer {
     width: 100%;
     background-color: var(--primary-color);
   }
+
+  .center {
+    margin: auto;
+    padding: 10px;
+  }
