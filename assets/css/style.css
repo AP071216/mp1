@@ -21,6 +21,10 @@ p {
     font-family: var(--secondary-font);
 }
 
+/* Body */
+body {
+    min-height: 100vh;
+}
 
 
 /* Navbar */
@@ -48,13 +52,22 @@ p {
 
 /* Footer */
 footer {
-    position: fixed;
+    margin-top: auto;
     bottom: 0;
     width: 100%;
     background-color: var(--primary-color);
+    top: 100%;
+    position: sticky;
   }
 
   .center {
     margin: auto;
     padding: 10px;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
   }
