@@ -1,87 +1,93 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Comfortaa:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Comfortaa:wght@300..700&display=swap");
 
 /* Set up variables */
 :root {
-    --primary-color: #84DCCF;
-    --secondary-color: #ff7033;
-    --text-color: #3b4f54;
-    --primary-font: "Comfortaa", sans-serif;
-    --secondary-font: "Baloo Bhaijaan 2", cursive;
+  --primary-color: #84dccf;
+  --secondary-color: #ff7033;
+  --text-color: #3b4f54;
+  --primary-font: "Comfortaa", sans-serif;
+  --secondary-font: "Baloo Bhaijaan 2", cursive;
 }
 
 /* Global styles */
-h1, h2, {
-    color: var(--text-color);
-    font-family: var(--primary-font);
+h1,
+h2 {
+  color: var(--text-color);
+  font-family: var(--primary-font);
 }
 
 p {
-    color: var(--text-color);
-    font-family: var(--secondary-font);
+  color: var(--text-color);
+  font-family: var(--secondary-font);
 }
 
 h3 {
-    color: var(--secondary-color);
-    font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
 }
 
 /* Body */
 body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 /* Navbar */
 .navbar {
-    background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 .navbar-toggler {
-    border: none;
+  border: none;
 }
 
 .nav-item a {
-    font-family: var(--primary-font);
-    font-size: 1.2rem;
-    vertical-align: middle;
-    color: var(--text-color);
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  vertical-align: middle;
+  color: var(--text-color);
 }
 
 #logo {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .nav-item a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+/* Carousel */
+.carousel-item {
+  max-height: 50vh;
+  object-position: 100%;
 }
 
 /* Our trainers */
 #trainer {
-    object-fit: contain;
-    max-height: 200px;
-    max-width: 200px;
+  object-fit: contain;
+  max-height: 200px;
+  max-width: 200px;
 }
-
 
 /* Footer */
 footer {
-    margin-top: auto;
-    bottom: 0;
-    width: 100%;
-    background-color: var(--primary-color);
-    top: 100%;
-    position: sticky;
-  }
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  top: 100%;
+  position: sticky;
+}
 
-  .center {
-    margin: auto;
-    padding: 10px;
-  }
+.center {
+  margin: auto;
+  padding: 10px;
+}
 
-  .flex-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-height: 100vh;
-  }
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100vh;
+}
