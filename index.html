@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dog Dojo | Home</title>
-    <link rel="icon" href="assets/images/logo.png" type="image/png"/>
+    <link rel="icon" href="assets/images/logo.png" type="image/png" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -66,26 +66,72 @@
 
     <main>
       <!-- Carousel -->
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/mainCarousel1.jpg" class="d-block w-100" alt="...">
+      <div class="container">
+        <div class="row text-center align-items-center">
+          <div class="col-12 col-md-6">
+            <h2 class="mt-4">Welcome to Dog Dojo</h2>
+            <p>
+              Dog Dojo is a dog training company that aims to help you and your
+              dog form a bond that lasts a lifetime. We offer a range of
+              services, from puppy training to 1-2-1 sessions, all tailored to
+              your needs.
+            </p>
+            <a href="#"
+              ><button type="button" class="btn btn-outline-secondary">
+                Book now!
+              </button></a
+            >
           </div>
-          <div class="carousel-item">
-            <img src="assets/images/mainCarousel2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/mainCarousel3.jpg" class="d-block w-100" alt="...">
+          <div id="carouselExample" class="carousel slide col-12 col-md-6">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/mainCarousel1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/mainCarousel2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/mainCarousel3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </main>
 
@@ -179,7 +225,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="text-center flex-wrapper">
+    <footer class="text-center flex-wrapper" id="footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-sm-4 center">
