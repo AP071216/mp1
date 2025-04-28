@@ -4,8 +4,9 @@
 /* Set up variables */
 :root {
   --primary-color: #84dccf;
-  --secondary-color: #ff7033;
+  --secondary-color: #ff4d00;
   --text-color: #3b4f54;
+  --secondary-text-color: #A33100;
   --primary-font: "Comfortaa", sans-serif;
   --secondary-font: "Baloo Bhaijaan 2", cursive;
 }
@@ -23,13 +24,18 @@ p {
 }
 
 h3 {
-  color: var(--secondary-color);
+  color: var(--secondary-text-color);
   font-family: var(--primary-font);
 }
 
 /* Body */
 body {
   min-height: 100vh;
+}
+
+.border-rounded {
+  border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 /* Navbar */
