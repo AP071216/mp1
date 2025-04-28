@@ -91,3 +91,8 @@ footer {
   justify-content: space-between;
   max-height: 100vh;
 }
+
+a > i {
+  color: var(--text-color);
+}
+
