@@ -36,6 +36,8 @@ body {
 .border-rounded {
   border-radius: 30px;
   margin-bottom: 20px;
+  color: var(--text-color);
+  border-color: var(--text-color);
 }
 
 /* Navbar */
@@ -68,6 +70,19 @@ body {
   object-fit: contain;
   max-height: 200px;
   max-width: 200px;
+}
+
+/* What we offer page */
+
+.curriculum-icons {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.curriculum-icons p {
+    width: 100px;
+    height: fit-content;
 }
 
 /* Footer */
