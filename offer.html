@@ -371,18 +371,36 @@
               dog if required
             </p>
           </div>
-          <form class="row" action="#" method="get">
+          <form class="row text-center" action="#" method="get">
             <div class="col-12 col-md-4">
               <label for="full-name" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="full-name" required />
+              <input
+                type="text"
+                class="form-control"
+                id="full-name"
+                name="name"
+                required
+              />
             </div>
             <div class="col-12 col-md-4">
               <label for="email" class="form-label">Email Address</label>
-              <input type="email" class="form-control" id="email" required />
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
             </div>
             <div class="col-12 col-md-4">
               <label for="phone" class="form-label">Phone number</label>
-              <input type="number" class="form-control" id="phone" required />
+              <input
+                type="number"
+                class="form-control"
+                id="phone"
+                name="phone"
+                required
+              />
             </div>
             <div class="col-12 col-md-6">
               <label for="booking-type" class="form-label">Booking type</label>
@@ -390,13 +408,14 @@
                 class="form-select"
                 aria-label=""
                 id="booking-type"
+                name="booking-type"
                 required
               >
-                <option selected>Select an option</option>
-                <option value="1">6 week puppy course</option>
-                <option value="2">1-2-1 session</option>
-                <option value="3">Regular event</option>
-                <option value="4">One off event</option>
+                <option value="" selected>Select an option</option>
+                <option value="puppy-course">6 week puppy course</option>
+                <option value="1-2-1">1-2-1 session</option>
+                <option value="reg-event">Regular event</option>
+                <option value="one-off-event">One off event</option>
               </select>
             </div>
             <div class="mb-3 col-12 col-md-6">
@@ -405,10 +424,16 @@
                 class="form-control"
                 id="message"
                 rows="5"
+                name="message"
+                required
                 placeholder="Please provide details of your pet and if booking onto an event, state which event specifically you would like to book onto e.g. Agility group"
               ></textarea>
             </div>
-            <button type="submit" class="btn submit-button mb-4">Submit</button>
+            <div class="text-center col-12">
+              <button type="submit" class="btn submit-button mb-4">
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </section>

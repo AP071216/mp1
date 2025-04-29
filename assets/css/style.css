@@ -122,6 +122,10 @@ body {
   margin-bottom: 20px;
   width: fit-content;
 }
+.submit-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
 
 /* Footer */
 footer {
