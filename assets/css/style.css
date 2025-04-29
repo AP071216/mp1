@@ -6,19 +6,22 @@
   --primary-color: #84dccf;
   --secondary-color: #ff4d00;
   --text-color: #3b4f54;
-  --secondary-text-color: #A33100;
+  --secondary-text-color: #a33100;
   --primary-font: "Comfortaa", sans-serif;
   --secondary-font: "Baloo Bhaijaan 2", cursive;
 }
 
 /* Global styles */
 h1,
-h2 {
+h2,
+h4 {
   color: var(--text-color);
   font-family: var(--primary-font);
 }
 
-p {
+p,
+ul,
+label {
   color: var(--text-color);
   font-family: var(--secondary-font);
 }
@@ -75,9 +78,49 @@ body {
 /* What we offer page */
 
 .curriculum-icons {
-    width: 100px;
-    height: 100px;
-    margin: 20px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+#list {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#list li {
+  float: right;
+  min-width: 200px;
+}
+
+.list-right {
+  justify-content: end;
+  align-items: end;
+}
+
+.disabled-button {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+/* Booking form */
+.form-control,
+.form-select {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  border-color: var(--secondary-color);
+}
+
+.submit-button {
+  border-color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: fit-content;
 }
 
 /* Footer */
@@ -105,4 +148,3 @@ footer {
 a > i {
   color: var(--text-color);
 }
-
