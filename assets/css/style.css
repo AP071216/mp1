@@ -146,7 +146,6 @@ body {
 /* Footer */
 footer {
   margin-top: auto;
-  bottom: 0;
   width: 100%;
   background-color: var(--primary-color);
   top: 100%;
