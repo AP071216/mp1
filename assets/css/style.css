@@ -40,7 +40,12 @@ body {
   border-radius: 30px;
   margin-bottom: 20px;
   color: var(--text-color);
-  border-color: var(--text-color);
+  border-color: var(--secondary-color);
+}
+
+.border-rounded:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 /* Navbar */
@@ -129,9 +134,7 @@ body {
 }
 
 /* Events page */
-.events-box {
-    /* Sort out the padding etc */
-}
+
 
 .reg-events > h4 {
     font-size: 1.2rem;
