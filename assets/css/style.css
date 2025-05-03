@@ -130,7 +130,11 @@ body {
 
 /* Events page */
 .events-box {
-    max-height: 150px;
+    /* Sort out the padding etc */
+}
+
+.reg-events > h4 {
+    font-size: 1.2rem;
 }
 
 /* Footer */
