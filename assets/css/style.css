@@ -140,6 +140,7 @@ body {
     font-size: 1.2rem;
 }
 
+
 /* Contact page */
 
 
@@ -171,4 +172,12 @@ a > i {
 .map-image {
   width: 250px;
   height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .reg-events > img {
+    width: 200px;
+    height: 200px;
+}
+  
 }
