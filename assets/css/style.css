@@ -93,13 +93,6 @@ body {
   color: var(--secondary-color);
 }
 
-/* Our trainers */
-#trainer {
-  object-fit: contain;
-  max-height: 200px;
-  max-width: 200px;
-}
-
 /* What we offer page */
 
 .curriculum-icons {
@@ -199,10 +192,25 @@ a > i {
   height: 250px;
 }
 
+
 @media screen and (max-width: 768px) {
   .reg-events > img {
     width: 200px;
     height: 200px;
+  }
+
+  #trainer {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+  }
 }
+
+@media screen and (min-width: 992px) {
+  #trainer {
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+  }
   
 }
