@@ -41,6 +41,7 @@ body {
   margin-bottom: 20px;
   color: var(--text-color);
   border-color: var(--secondary-color);
+  font-family: var(--primary-font)
 }
 
 .border-rounded:hover {
@@ -122,6 +123,10 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
   border-color: var(--secondary-color);
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
 }
 
 /* Booking form */
@@ -135,7 +140,7 @@ body {
 
 .submit-button {
   border-color: var(--secondary-color);
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   color: var(--text-color);
   border-radius: 10px;
   margin-bottom: 20px;
@@ -192,6 +197,15 @@ a > i {
   height: 250px;
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+  #curriculum p {
+    max-width: 250px;
+    text-align: center;
+    margin: auto;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .reg-events > img {
@@ -203,6 +217,12 @@ a > i {
     object-fit: contain;
     width: 200px;
     height: 200px;
+  }
+
+  #curriculum p {
+    max-width: 250px;
+    text-align: center;
+    margin: auto;
   }
 }
 
