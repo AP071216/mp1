@@ -48,6 +48,26 @@ body {
   color: var(--text-color);
 }
 
+/* Margin classes */
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-top-bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.margin-bottom img{
+  margin-bottom: 20px;
+}
+
+
 /* Navbar */
 .navbar {
   background-color: var(--primary-color);
@@ -129,6 +149,11 @@ body {
   width: fit-content;
 }
 .submit-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.submit-button:active {
   background-color: var(--secondary-color);
   color: var(--text-color);
 }
