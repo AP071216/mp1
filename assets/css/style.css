@@ -41,7 +41,7 @@ body {
   margin-bottom: 20px;
   color: var(--text-color);
   border-color: var(--secondary-color);
-  font-family: var(--primary-font)
+  font-family: var(--primary-font);
 }
 
 .border-rounded:hover {
@@ -50,7 +50,6 @@ body {
 }
 
 /* Margin classes */
-
 .margin-top {
   margin-top: 20px;
 }
@@ -64,10 +63,9 @@ body {
   margin-bottom: 20px;
 }
 
-.margin-bottom img{
+.margin-bottom img {
   margin-bottom: 20px;
 }
-
 
 /* Navbar */
 .navbar {
@@ -107,7 +105,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  
 }
 #list li {
   float: right;
@@ -119,7 +116,7 @@ body {
   align-items: end;
 }
 
-.disabled-button:disabled{
+.disabled-button:disabled {
   border-radius: 10px;
   margin-bottom: 20px;
   border-color: var(--secondary-color);
@@ -158,14 +155,11 @@ body {
 
 /* Events page */
 
-
 .reg-events > h4 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-
 /* Contact page */
-
 
 /* Footer */
 footer {
@@ -232,5 +226,4 @@ a > i {
     width: 250px;
     height: 250px;
   }
-  
 }
