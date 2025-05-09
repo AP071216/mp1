@@ -219,8 +219,23 @@ Info:
 1. Trailing slashes on void elements due to formating within html document
     - Removed all trailing slashes on void elements after final formatting
 
+Contact
+
+![HTML validator contact](assets/images/html-validation-contact.png)
+
+Errors:
+1. No errors
+
+Warnings:
+1. No warnings
+
+Info:
+1. Trailing slashes on void elements due to formating within html document
+    - Removed all trailing slashes on void elements after final formatting
 
 ### CSS validator
+
+![CSS Validator](assets/images/css-validator.png)
 
 ### Lighthouse
 
