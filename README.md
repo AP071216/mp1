@@ -204,6 +204,21 @@ Info:
 1. Trailing slashes on void elements due to formating within html document
     - Removed all trailing slashes on void elements after final formatting
 
+Events
+
+![HTML validator events](assets/images/html-validator-events.png)
+
+Errors:
+1. Button element nested within a element
+    - Fixed by using bootstrap button classes within the a element and removing the button element
+
+Warnings:
+1. No warnings
+
+Info:
+1. Trailing slashes on void elements due to formating within html document
+    - Removed all trailing slashes on void elements after final formatting
+
 
 ### CSS validator
 
