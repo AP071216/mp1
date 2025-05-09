@@ -169,6 +169,8 @@ Inclusion of an image from Google Maps with a pin dropped onto the main location
 
 ### HTML Validator
 
+Homepage
+
 ![HTML validator home](assets/images/html-validation-home.png)
 
 Errors:
@@ -185,7 +187,9 @@ Info:
 1. Trailing slashes on void elements due to formating within html document
     - Removed all trailing slashes on void elements after final formatting
 
-image
+What we offer
+
+![HTML validator what we offer](assets/images/html-validation-offer.png)
 
 Errors:
 1. Repeated ID on curriculum icons
