@@ -208,7 +208,7 @@ a > i {
     height: 200px;
   }
 
-  #trainer {
+  .trainer {
     object-fit: contain;
     width: 200px;
     height: 200px;
@@ -222,7 +222,7 @@ a > i {
 }
 
 @media screen and (min-width: 992px) {
-  #trainer {
+  .trainer {
     object-fit: contain;
     width: 250px;
     height: 250px;
