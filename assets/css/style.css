@@ -195,7 +195,7 @@ a > i {
 /* Media Queries */
 
 @media screen and (max-width: 576px) {
-  #curriculum p {
+  .curriculum p {
     max-width: 250px;
     text-align: center;
     margin: auto;
@@ -214,7 +214,7 @@ a > i {
     height: 200px;
   }
 
-  #curriculum p {
+  .curriculum p {
     max-width: 250px;
     text-align: center;
     margin: auto;
