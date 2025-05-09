@@ -31,11 +31,11 @@ They required a simple website with easy navigation with a page displaying what 
     - [Repository](#repository)
     - [Hosting](#hosting)
 5. [Features](#features)
-    -[Navigation Menu](#navigation-menu)
-    -[Carousel](#carousel)
-    -[Curriculum](#curriculum)
-    -[Booking form](#booking-form)
-    -[Footer](#footer)
+    - [Navigation Menu](#navigation-menu)
+    - [Carousel](#carousel)
+    - [Curriculum](#curriculum)
+    - [Booking form](#booking-form)
+    - [Footer](#footer)
 6. [Testing](#testing)
 7. [Technologies Used](#technologies-used)
 8. [Credits and References](#credits-and-references)
@@ -76,6 +76,8 @@ Each page has easy access back to the home page or another page the user finds i
 Icons chosen for their clear representative meaning replacing text for a more modern look
 
 ## Wireframes
+
+![Mockup on all screensizes](assets/images/mockup.png)
 
 ### Homepage - Desktop
 
