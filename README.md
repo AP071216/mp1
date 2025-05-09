@@ -174,12 +174,32 @@ Inclusion of an image from Google Maps with a pin dropped onto the main location
 Errors:
 1. Button element nested within an a element
     - Fixed by using bootstrap button classes within the a element and removing the button element
+2. Repeated ID on trainer images
+    - Fixed by changing the ID for class 
 
 Warnings:
-1. Repeated ID on trainer images
-    - Fixed by changing the ID for class 
-2. Name attributes on social media links suggested as obscelete
+1. Name attributes on social media links suggested as obscelete
     - Fixed by removing name attribute and replacing with ID
+
+Info:
+1. Trailing slashes on void elements due to formating within html document
+    - Removed all trailing slashes on void elements after final formatting
+
+image
+
+Errors:
+1. Repeated ID on curriculum icons
+    - Fixed by changing ID for class
+2. Button element nested within an a element
+    - Fixed by using bootstrap button classes within the a element and removing the button element
+
+Warnings:
+1. No warnings
+
+Info:
+1. Trailing slashes on void elements due to formating within html document
+    - Removed all trailing slashes on void elements after final formatting
+
 
 ### CSS validator
 
