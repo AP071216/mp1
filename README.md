@@ -167,7 +167,13 @@ Inclusion of an image from Google Maps with a pin dropped onto the main location
 
 ## Testing
 
-(Insert testing images and descriptions of each test carried out)
+### HTML Validator
+
+### CSS validator
+
+### Lighthouse
+
+
 
 ## Technologies used
 
