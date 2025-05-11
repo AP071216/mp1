@@ -218,10 +218,10 @@ Using "Browser Stack"
     </thead>
     <tbody>
         <tr>
-            <th>Navigation bar has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle</th>
-            <th>Some images increased in size to fill empty space but doesn't overflow and fits the page well</th>
-            <th>Text aligned well, text isn't too large for the screensize. Forms fit well</th>
-            <th>Due to the grid system, all content aligns on the page in one column and doesn't overlap</th>
+            <td>Navigation bar has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle</td>
+            <td>Some images increased in size to fill empty space but doesn't overflow and fits the page well</td>
+            <td>Text aligned well, text isn't too large for the screensize. Forms fit well</td>
+            <td>Due to the grid system, all content aligns on the page in one column and doesn't overlap</td>
         </tr>
     </tbody>
 </table>
@@ -239,10 +239,10 @@ Using "Browser Stack"
     </thead>
     <tbody>
         <tr>
-            <th>Navigation bar has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle</th>
-            <th>Some images increased in size to fill empty space but doesn't overflow and fits the page well. Carousel images increase size responsively to fit screensize</th>
-            <th>Text aligned well, text isn't too large for the screensize. Forms fit well</th>
-            <th>Due to the grid system, all content aligns on the page in one column and doesn't overlap</th>
+            <td>Navigation bar has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle</td>
+            <td>Some images increased in size to fill empty space but doesn't overflow and fits the page well. Carousel images increase size responsively to fit screensize</td>
+            <td>Text aligned well, text isn't too large for the screensize. Forms fit well</td>
+            <td>Due to the grid system, all content aligns on the page in one column and doesn't overlap</td>
         </tr>
     </tbody>
 </table>
@@ -260,10 +260,10 @@ Using "Browser Stack"
     </thead>
     <tbody>
         <tr>
-            <th>Navigation bar still has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle but aligns well</th>
-            <th>Images are correctly sized for the screen, some images increased from mobile size to better fit viewport, </th>
-            <th>Text aligned well, text isn't too large for the screensize. Forms are viewable in the desktop format without compromising form space</th>
-            <th>Due to the grid system, content can now fit into two columns across the screen, matching desktop view in most cases. Curriculum icons with text are aligned into 3 columns with 2 columns for the bottom row. Events page aligned into 2 columns with 1 column on the bottom row</th>
+            <td>Navigation bar still has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle but aligns well</td>
+            <td>Images are correctly sized for the screen, some images increased from mobile size to better fit viewport, </td>
+            <td>Text aligned well, text isn't too large for the screensize. Forms are viewable in the desktop format without compromising form space</td>
+            <td>Due to the grid system, content can now fit into two columns across the screen, matching desktop view in most cases. Curriculum icons with text are aligned into 3 columns with 2 columns for the bottom row. Events page aligned into 2 columns with 1 column on the bottom row</td>
         </tr>
     </tbody>
 </table>
@@ -281,10 +281,10 @@ Using "Browser Stack"
     </thead>
     <tbody>
         <tr>
-            <th>Navigation bar no longer has dropdown menu so links are displayed in a row along the top. "Dog Dojo" text aligns left to account for the used space on the right </th>
-            <th>Carousel images at their largest whilst other images have been decreased in size to account for the grid system but are still easily viewed</th>
-            <th>Text aligned well, fits the screen and doesn't overlap any other content. Form is at it's largest and has plenty of space to fill out correctly</th>
-            <th>Grid system allows for easy view of content, mostly occupying 2 columns however events sections and curriculum are able to be up to 4-5 coluumns </th>
+            <td>Navigation bar no longer has dropdown menu so links are displayed in a row along the top. "Dog Dojo" text aligns left to account for the used space on the right </td>
+            <td>Carousel images at their largest whilst other images have been decreased in size to account for the grid system but are still easily viewed</td>
+            <td>Text aligned well, fits the screen and doesn't overlap any other content. Form is at it's largest and has plenty of space to fill out correctly</td>
+            <td>Grid system allows for easy view of content, mostly occupying 2 columns however events sections and curriculum are able to be up to 4-5 coluumns </td>
         </tr>
     </tbody>
 </table>
