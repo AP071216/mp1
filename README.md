@@ -243,17 +243,25 @@ No errors arose from testing
 
 Homepage - Desktop
 
+![Lighthouse testing homepage](assets/images/homepage-lighthouse-desktop.png)
+
 Homepage - Mobile
 
 What we offer - Desktop
+
+![Lighthouse testing what we offer](assets/images/offer-lighthouse-desktop.png)
 
 What we offer - Mobile
 
 Events - Desktop
 
+![Lighthouse testing events](assets/images/events-lighthouse-desktop.png)
+
 Events - Mobile
 
 Contact - Desktop
+
+![Lighthouse testing contact](assets/images/contact-lighthouse-desktop.png)
 
 Contact - Mobile
 
