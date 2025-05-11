@@ -167,6 +167,10 @@ Inclusion of an image from Google Maps with a pin dropped onto the main location
 
 ## Testing
 
+### Responsive testing
+
+
+
 ### HTML Validator
 
 Homepage
@@ -241,29 +245,27 @@ No errors arose from testing
 
 ### Lighthouse
 
-Homepage - Desktop
+Homepage
 
 ![Lighthouse testing homepage](assets/images/homepage-lighthouse-desktop.png)
 
-Homepage - Mobile
-
-What we offer - Desktop
+What we offer
 
 ![Lighthouse testing what we offer](assets/images/offer-lighthouse-desktop.png)
 
-What we offer - Mobile
-
-Events - Desktop
+Events
 
 ![Lighthouse testing events](assets/images/events-lighthouse-desktop.png)
 
-Events - Mobile
-
-Contact - Desktop
+Contact
 
 ![Lighthouse testing contact](assets/images/contact-lighthouse-desktop.png)
 
-Contact - Mobile
+Issues:
+
+Initially when I ran lighthouse on pages with images the loading times were too long due to improperly sized images. I resized and compressed these images until the performance scores were good. I also changed format of my larger images in jpeg or png form so they were in webp which also improved loading speeds.
+
+Contrast of colours also flagged up and so I darkened the secondary text colour so that it met accessibility requirements whilst still maintaining the quality of my website.
 
 ## Technologies used
 
