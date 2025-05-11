@@ -27,6 +27,10 @@ They required a simple website with easy navigation with a page displaying what 
     - [Homepage - Mobile](#homepage---mobile)
     - [What we offer - Desktop](#what-we-offer-page---desktop)
     - [What we offer - Mobile](#what-we-offer-page---mobile)
+    - [Events - Desktop](#events---desktop)
+    - [Events - Mobile](#events---mobile)
+    - [Contact - Desktop](#contact---desktop)
+    - [Contact - Mobile](#contact---mobile)
 4. [Deployment](#deployment)
     - [Repository](#repository)
     - [Hosting](#hosting)
@@ -86,11 +90,11 @@ Icons chosen for their clear representative meaning replacing text for a more mo
 
 ### Homepage - Desktop
 
-![Desktop wireframe 1](assets/images/homepage-wireframe-desktop.png)
-![Desktop wireframe 2](assets/images/homepage-wireframe-desktop1.png)
+![Desktop homepage wireframe 1](assets/images/homepage-wireframe-desktop.png)
+![Desktop homepage wireframe 2](assets/images/homepage-wireframe-desktop1.png)
 
 ### Homepage - Mobile
-![Mobile wireframe 1](assets/images/homepage-wireframe-mobile.png)
+![Mobile homepage wireframe 1](assets/images/homepage-wireframe-mobile.png)
 
 ### What we offer page - Desktop
 ![Desktop offer wireframe 1](assets/images/offer-wireframe-desktop.png) 
@@ -99,6 +103,22 @@ Icons chosen for their clear representative meaning replacing text for a more mo
 ### What we offer page - Mobile
 
 ![Mobile offer wireframe 1](assets/images/offer-wireframe-mobile.png)
+
+### Events - Desktop
+
+![Desktop events wireframe](assets/images/events-wireframe-desktop.png)
+
+### Events - Mobile
+
+![Mobile events wireframe](assets/images/events-wireframe-mobile.png)
+
+### Contact - Desktop
+
+![Desktop contact wireframe](assets/images/contact-wireframe-desktop.png)
+
+### Contact - Mobile
+
+![Mobile contact wireframe](assets/images/contact-wireframe-mobile.png)
 
 ## Deployment
 
