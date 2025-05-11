@@ -237,9 +237,25 @@ Info:
 
 ![CSS Validator](assets/images/css-validator.png)
 
+No errors arose from testing
+
 ### Lighthouse
 
+Homepage - Desktop
 
+Homepage - Mobile
+
+What we offer - Desktop
+
+What we offer - Mobile
+
+Events - Desktop
+
+Events - Mobile
+
+Contact - Desktop
+
+Contact - Mobile
 
 ## Technologies used
 
