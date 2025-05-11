@@ -167,6 +167,42 @@ Inclusion of an image from Google Maps with a pin dropped onto the main location
 
 ## Testing
 
+### Browser Testing
+
+Using "Browser Stack"
+
+<table>
+  <thead>
+    <tr>
+      <th>Browser</th>
+      <th>Device/Operating system</th>
+      <th>Appearance</th>
+      <th>Responsiveness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chrome</td>
+      <td>Galaxy S24 and Windows 11</td>
+      <td>All the pages format correctly. The links, nav and form all work as expected.</td>
+      <td>Great</td>
+    </tr>
+    <tr>
+       <td>Safari</td>
+       <td>iPad 9th and Sequoia</td>
+      <td>All the pages format correctly. The links, nav and form all work as expected.</td>
+      <td>Great</td>
+    </tr>
+    <tr>
+      <td>Edge</td>
+      <td>Galaxy Z fold 6 and Windows 11</td>
+      <td>All the pages format correctly. The links, nav and form all work as expected.</td>
+      <td>Great</td>
+    </tr>
+ 
+  </tbody>
+</table>
+
 ### Responsive testing
 
 #### Min-width 320px
