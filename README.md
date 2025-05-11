@@ -169,7 +169,89 @@ Inclusion of an image from Google Maps with a pin dropped onto the main location
 
 ### Responsive testing
 
+#### Min-width 320px
 
+<table>
+    <thead>
+        <tr>
+            <th>Navigation bar</th>
+            <th>Images</th>
+            <th>Text</th>
+            <th>Grid system</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Navigation bar has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle</th>
+            <th>Some images increased in size to fill empty space but doesn't overflow and fits the page well</th>
+            <th>Text aligned well, text isn't too large for the screensize. Forms fit well</th>
+            <th>Due to the grid system, all content aligns on the page in one column and doesn't overlap</th>
+        </tr>
+    </tbody>
+</table>
+
+#### Min-width 425px
+
+<table>
+    <thead>
+        <tr>
+            <th>Navigation bar</th>
+            <th>Images</th>
+            <th>Text</th>
+            <th>Grid system</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Navigation bar has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle</th>
+            <th>Some images increased in size to fill empty space but doesn't overflow and fits the page well. Carousel images increase size responsively to fit screensize</th>
+            <th>Text aligned well, text isn't too large for the screensize. Forms fit well</th>
+            <th>Due to the grid system, all content aligns on the page in one column and doesn't overlap</th>
+        </tr>
+    </tbody>
+</table>
+
+#### Min-width 768px
+
+<table>
+    <thead>
+        <tr>
+            <th>Navigation bar</th>
+            <th>Images</th>
+            <th>Text</th>
+            <th>Grid system</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Navigation bar still has dropdown menu to account for less horizontal space, "Dog Dojo" text is centered due to extra space in the middle but aligns well</th>
+            <th>Images are correctly sized for the screen, some images increased from mobile size to better fit viewport, </th>
+            <th>Text aligned well, text isn't too large for the screensize. Forms are viewable in the desktop format without compromising form space</th>
+            <th>Due to the grid system, content can now fit into two columns across the screen, matching desktop view in most cases. Curriculum icons with text are aligned into 3 columns with 2 columns for the bottom row. Events page aligned into 2 columns with 1 column on the bottom row</th>
+        </tr>
+    </tbody>
+</table>
+
+#### Min-width 992px
+
+<table>
+    <thead>
+        <tr>
+            <th>Navigation bar</th>
+            <th>Images</th>
+            <th>Text</th>
+            <th>Grid system</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Navigation bar no longer has dropdown menu so links are displayed in a row along the top. "Dog Dojo" text aligns left to account for the used space on the right </th>
+            <th>Carousel images at their largest whilst other images have been decreased in size to account for the grid system but are still easily viewed</th>
+            <th>Text aligned well, fits the screen and doesn't overlap any other content. Form is at it's largest and has plenty of space to fill out correctly</th>
+            <th>Grid system allows for easy view of content, mostly occupying 2 columns however events sections and curriculum are able to be up to 4-5 coluumns </th>
+        </tr>
+    </tbody>
+</table>
 
 ### HTML Validator
 
@@ -281,7 +363,7 @@ Github and Visual Studio
 
 In order to build the website I used the following sources:
 - Bootstrap
-    - Used bootstrap grid system as well as documentation from bootstrap to design the navigation bar and carousel. These are documented within comments in the code
+    - Used bootstrap grid system as well as documentation from bootstrap to design the navigation bar and carousel. These are documented within comments in the code. Bootstrap button classes are also included within button elements for ease of styling but have been customised accordingly for the website
 - Unsplash.com for free images seen throughout the website
 - AI generated icons using Microsoft Designer 
 - Favicon for small icons used in footer
