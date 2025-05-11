@@ -37,6 +37,11 @@ They required a simple website with easy navigation with a page displaying what 
     - [Booking form](#booking-form)
     - [Footer](#footer)
 6. [Testing](#testing)
+    - [Browser testing](#browser-testing)
+    - [Responsive testing](#responsive-testing)
+    - [HTML validation](#html-validator)
+    - [CSS validation](#css-validator)
+    - [Lighthouse](#lighthouse)
 7. [Technologies Used](#technologies-used)
 8. [Credits and References](#credits-and-references)
 ## UX
@@ -107,7 +112,7 @@ Github and Visual Studio are used to deploy the project
     - git config --list
 2. Throughout my work on the project, I regularly committed my work to github using the following commands
     - git add .
-    - git commit -m "Helpful and consise message regarding what had been changed"
+    - git commit -m "Consise message detailing what was changed"
 3. After several commits were made, I then pushed my work to Github using:
     - git push
 
