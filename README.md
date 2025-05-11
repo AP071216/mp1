@@ -255,6 +255,7 @@ Github and Visual Studio
 
 In order to build the website I used the following sources:
 - Bootstrap
+    - Used bootstrap grid system as well as documentation from bootstrap to design the navigation bar and carousel. These are documented within comments in the code
 - Unsplash.com for free images seen throughout the website
 - AI generated icons using Microsoft Designer 
 - Favicon for small icons used in footer
