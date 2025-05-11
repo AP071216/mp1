@@ -140,7 +140,7 @@ Github and Visual Studio are used to deploy the project
 1. On conception of the project and having completed a basic boilerplate for my work, I went onto my project repository on github to set up for deployment
 2. I went into Settings > Pages and ensured that "Deploy from a branch" was selected the main branch was the branch chosen then pressed save and waited for deployment
 
-(Insert image of deployment)
+![Deployment](assets/images/deployment.png)
 
 ## Features
 
